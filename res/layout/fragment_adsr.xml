@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+      <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Mengerjakan"
+         />
+        
+            <TextView
+        android:id="@+id/adsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Berapakah 5+6?"
+        android:layout_below="@+id/intro"
+        />
+                <EditText 
+        android:id="@+id/etadsr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jawaban anda"
+        android:layout_below="@+id/adsr"
+        />
+                    <Button
+        android:id="@+id/btnadsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/etadsr"
+        />
+    
+
+</RelativeLayout>

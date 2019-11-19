@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvsoal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. apakah bumi itu bulat?"
+        />
+    
+    <EditText
+        android:id="@+id/etjawab1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Isi jawaban anda"
+        android:layout_below="@+id/tvsoal1"
+        />
+    
+    <Button
+        android:id="@+id/btnjawab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawab"
+        android:layout_below="@+id/etjawab1"
+        />
+    
+    <TextView 
+        android:id="@+id/tvsoal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. apakah anda jomblo?"
+        android:layout_below="@+id/btnjawab1"
+        />
+    
+    <EditText 
+        android:id="@+id/etjawab2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Isi jawaban anda"
+        android:layout_below="@+id/tvsoal2"
+        />
+    
+    <Button 
+        android:id="@+id/btnjawab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawab"
+        android:layout_below="@+id/etjawab2"
+        />
+
+</RelativeLayout>
